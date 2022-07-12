@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  background-color: #000;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.images {
+  /* width: 421px; */
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 421px;
+}
+
+.images p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.images:first-child {
+  background-image: url(./assets/images/01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:nth-child(2) {
+  background-image: url(./assets/images/02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:nth-child(3) {
+  background-image: url(./assets/images/03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:nth-child(4) {
+  background-image: url(./assets/images/04.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:nth-child(5) {
+  background-image: url(./assets/images/05.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:nth-child(6) {
+  background-image: url(./assets/images/06.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:nth-child(7) {
+  background-image: url(./assets/images/07.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:nth-child(8) {
+  background-image: url(./assets/images/08.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.images:last-child {
+  background-image: url(./assets/images/09.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+footer h6 {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+footer h6 i {
+  margin-left: 10px;
+}
